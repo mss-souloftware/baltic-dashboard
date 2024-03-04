@@ -79,34 +79,34 @@ const TableOne = () => {
           </div>
         </div>
 
-        {brandData.map((brand, key) => (
+        
           <div className="flex justify-between">
 
             <div className="flex items-center justify-start p-1">
-              <p className="text-black dark:text-white">{brand.visitors}K</p>
+              <p className="text-black dark:text-white">45K</p>
             </div>
             <div className="flex items-center justify-start p-1">
-              <p className="text-black dark:text-white">{brand.visitors}K</p>
+              <p className="text-black dark:text-white">37K</p>
             </div>
             <div className="flex items-center justify-start p-1">
-              <p className="text-black dark:text-white">{brand.visitors}K</p>
+              <p className="text-black dark:text-white">22K</p>
             </div>
             <div className="flex items-center justify-start p-1">
-              <p className="text-black dark:text-white">{brand.visitors}K</p>
+              <p className="text-black dark:text-white">31K</p>
             </div>
             <div className="flex items-center justify-start p-1">
-              <p className="text-black dark:text-white">{brand.visitors}K</p>
+              <p className="text-black dark:text-white">53K</p>
             </div>
             <div className="flex items-center justify-start p-1">
-              <p className="text-black dark:text-white">{brand.visitors}K</p>
+              <p className="text-black dark:text-white">77K</p>
             </div><div className="flex items-center justify-start p-1">
-              <p className="text-black dark:text-white">{brand.visitors}K</p>
+              <p className="text-black dark:text-white">23K</p>
             </div>
             <div className="flex items-center justify-start p-1">
-              <p className="text-meta-3">${brand.revenues}</p>
+              <p className="text-meta-3">$87</p>
             </div>
           </div>
-        ))}
+
       </div>
     </div>
   );
