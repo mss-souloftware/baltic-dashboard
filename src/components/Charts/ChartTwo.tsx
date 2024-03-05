@@ -7,7 +7,7 @@ const options: ApexOptions = {
   colors: ["#7FD549", "#D9D9D9"],
   chart: {
     fontFamily: "Satoshi, sans-serif",
-    type: "barh",
+    type: "bar",
     height: 335,
     stacked: true,
     toolbar: {
