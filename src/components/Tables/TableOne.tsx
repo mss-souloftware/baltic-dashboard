@@ -23,7 +23,7 @@ const brandData: BRAND[] = [
 
 const ToggleTableData = () => {
   const [selectedDatatype, setSelectedDatatype] = useState("container");
-  const handleButtonClick = (datatype) => {
+  const handleButtonClick = (datatype: string) => {
     setSelectedDatatype(datatype);
   };
 
