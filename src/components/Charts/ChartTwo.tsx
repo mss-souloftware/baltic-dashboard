@@ -63,6 +63,7 @@ const options: ApexOptions = {
   },
 };
 
+
 interface ChartTwoState {
   series: {
     name: string;
@@ -71,7 +72,7 @@ interface ChartTwoState {
 }
 
 const ChartTwo: React.FC = () => {
-  const [state, setState] = useState<ChartTwoState>({
+  const [chartTwoState, setChartTwoState] = useState<ChartTwoState>({
     series: [
       {
         name: "Sales",
@@ -84,12 +85,16 @@ const ChartTwo: React.FC = () => {
     ],
   });
 
-  const handleReset = () => {
-    setState((prevState) => ({
+  const handleResetChartTwo = () => {
+    setChartTwoState((prevState) => ({
       ...prevState,
     }));
   };
-  handleReset;
+
+  const [selectedDatatype, setSelectedDatatype] = useState("container");
+  const handleButtonClick = (datatype: string) => {
+    setSelectedDatatype(datatype);
+  };
 
   return (
     <div className="col-span-12 rounded-xl border border-stroke bg-white p-2.5 shadow-default dark:border-strokedark dark:bg-boxdark xl:col-span-4">
@@ -100,8 +105,9 @@ const ChartTwo: React.FC = () => {
           </h4>
 
           <div className="flex">
-            <button className="bg-gray p-3 rounded-md mr-1">
+            <button className={`p-3 rounded-md mr-1 ${selectedDatatype === "container" ? "bg-[#3B74B9]" : "bg-gray"}`} datatype="container" onClick={() => handleButtonClick("container")}>
               <Image
+                className={`${selectedDatatype === "container" ? "invert brightness-0" : ""}`}
                 width={112}
                 height={112}
                 src={"/images/icon/container.png"}
@@ -113,8 +119,9 @@ const ChartTwo: React.FC = () => {
               />
             </button>
 
-            <button className="bg-gray p-3 rounded-md">
+            <button className={`p-3 rounded-md mr-1 ${selectedDatatype === "crain" ? "bg-[#3B74B9]" : "bg-gray"}`} datatype="crain" onClick={() => handleButtonClick("crain")}>
               <Image
+                className={`${selectedDatatype === "crain" ? "invert brightness-0" : ""}`}
                 width={112}
                 height={112}
                 src={"/images/icon/crain.png"}
@@ -129,16 +136,90 @@ const ChartTwo: React.FC = () => {
         </div>
       </div>
 
-      <div>
+      <div datatype="container" style={{ display: selectedDatatype === "container" ? "flex" : "none" }}>
         <div id="chartTwo">
           <ReactApexChart
             options={options}
-            series={state.series}
+            series={chartTwoState.series}
             type="bar"
             height={250}
             width={"100%"}
           />
         </div>
+      </div>
+
+      <ChartThree selectedDatatype={selectedDatatype} />
+    </div>
+  );
+};
+
+const chartthreeoptions: ApexOptions = {
+  chart: {
+    fontFamily: "Satoshi, sans-serif",
+    type: "donut",
+  },
+  colors: ["#3C50E0", "#6577F3", "#8FD0EF", "#0FADCF"],
+  labels: ["Desktop", "Tablet", "Mobile", "Unknown"],
+  legend: {
+    show: false,
+    position: "bottom",
+  },
+
+  plotOptions: {
+    pie: {
+      donut: {
+        size: "65%",
+        background: "transparent",
+      },
+    },
+  },
+  dataLabels: {
+    enabled: false,
+  },
+  responsive: [
+    {
+      breakpoint: 2600,
+      options: {
+        chart: {
+          width: 380,
+        },
+      },
+    },
+    {
+      breakpoint: 640,
+      options: {
+        chart: {
+          width: 200,
+        },
+      },
+    },
+  ],
+};
+
+interface ChartThreeProps {
+  selectedDatatype: string;
+}
+
+const ChartThree: React.FC<ChartThreeProps> = ({ selectedDatatype }) => {
+  const [chartThreeState, setChartThreeState] = useState({
+    series: [65, 34, 12, 56],
+  });
+
+  const handleResetChartThree = () => {
+    setChartThreeState((prevState) => ({
+      ...prevState,
+      series: [65, 34, 12, 56],
+    }));
+  };
+
+  return (
+    <div className="mb-2" datatype="crain" style={{ display: selectedDatatype === "crain" ? "flex" : "none" }}>
+      <div id="chartThree" className="mx-auto flex justify-center">
+        <ReactApexChart
+          options={chartthreeoptions}
+          series={chartThreeState.series}
+          type="donut"
+        />
       </div>
     </div>
   );
