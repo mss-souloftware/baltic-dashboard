@@ -8,7 +8,7 @@ const options: ApexOptions = {
   chart: {
     fontFamily: "Satoshi, sans-serif",
     type: "bar",
-    height: 335,
+    height: 350,
     stacked: true,
     toolbar: {
       show: false,
@@ -48,6 +48,7 @@ const options: ApexOptions = {
     categories: ["106", "105", "104", "103", "102", "101"],
   },
   legend: {
+    show: false,
     position: "top",
     horizontalAlign: "left",
     fontFamily: "Satoshi",
@@ -98,8 +99,8 @@ const ChartTwo: React.FC = () => {
 
   return (
     <div className="col-span-12 rounded-xl border border-stroke bg-white p-2.5 shadow-default dark:border-strokedark dark:bg-boxdark xl:col-span-4">
-      <div className="mb-4 justify-between gap-4 sm:flex">
-        <div className="flex justify-between items-center mb-6 w-full">
+      <div className="justify-between gap-4 sm:flex">
+        <div className="flex justify-between items-center w-full">
           <h4 className="text-md font-semibold text-black dark:text-white">
             Zu Entladen
           </h4>
@@ -108,13 +109,9 @@ const ChartTwo: React.FC = () => {
             <button className={`p-3 rounded-md mr-1 ${selectedDatatype === "container" ? "bg-[#3B74B9]" : "bg-gray"}`} datatype="container" onClick={() => handleButtonClick("container")}>
               <Image
                 className={`${selectedDatatype === "container" ? "invert brightness-0" : ""}`}
-                width={112}
-                height={112}
-                src={"/images/icon/container.png"}
-                style={{
-                  width: "auto",
-                  height: "auto",
-                }}
+                width={30}
+                height={30}
+                src={"/images/icon/container.svg"}
                 alt="User"
               />
             </button>
@@ -122,13 +119,9 @@ const ChartTwo: React.FC = () => {
             <button className={`p-3 rounded-md mr-1 ${selectedDatatype === "crain" ? "bg-[#3B74B9]" : "bg-gray"}`} datatype="crain" onClick={() => handleButtonClick("crain")}>
               <Image
                 className={`${selectedDatatype === "crain" ? "invert brightness-0" : ""}`}
-                width={112}
-                height={112}
-                src={"/images/icon/crain.png"}
-                style={{
-                  width: "auto",
-                  height: "auto",
-                }}
+                width={30}
+                height={30}
+                src={"/images/icon/crain.svg"}
                 alt="User"
               />
             </button>
@@ -136,13 +129,13 @@ const ChartTwo: React.FC = () => {
         </div>
       </div>
 
-      <div datatype="container" style={{ display: selectedDatatype === "container" ? "flex" : "none" }}>
-        <div id="chartTwo">
+      <div datatype="container" className="w-full" style={{ display: selectedDatatype === "container" ? "flex" : "none" }}>
+        <div id="chartTwo" className="w-full">
           <ReactApexChart
             options={options}
             series={chartTwoState.series}
             type="bar"
-            height={250}
+            height={220}
             width={"100%"}
           />
         </div>
@@ -157,9 +150,10 @@ const chartthreeoptions: ApexOptions = {
   chart: {
     fontFamily: "Satoshi, sans-serif",
     type: "donut",
+    width: "100%",
   },
-  colors: ["#3C50E0", "#6577F3", "#8FD0EF", "#0FADCF"],
-  labels: ["Desktop", "Tablet", "Mobile", "Unknown"],
+  colors: ["#A9B8D7", "#EA1E63", "#03A9F5", "#3A4070", "#F88E00"],
+  labels: ["Gesamt", "Verladen", "K Platz", "Hafen", "Gesperrt"],
   legend: {
     show: false,
     position: "bottom",
@@ -168,20 +162,31 @@ const chartthreeoptions: ApexOptions = {
   plotOptions: {
     pie: {
       donut: {
-        size: "65%",
+        size: "45%",
         background: "transparent",
       },
     },
   },
   dataLabels: {
-    enabled: false,
+    enabled: true,
+  },
+  legend: {
+    show: true,
+    position: "top",
+    horizontalAlign: "left",
+    fontFamily: "Satoshi",
+    fontWeight: 500,
+    fontSize: "14px",
+    markers: {
+      radius: 99,
+    },
   },
   responsive: [
     {
       breakpoint: 2600,
       options: {
         chart: {
-          width: 380,
+          width: "100%",
         },
       },
     },
@@ -189,7 +194,7 @@ const chartthreeoptions: ApexOptions = {
       breakpoint: 640,
       options: {
         chart: {
-          width: 200,
+          width: "100%",
         },
       },
     },
@@ -202,20 +207,21 @@ interface ChartThreeProps {
 
 const ChartThree: React.FC<ChartThreeProps> = ({ selectedDatatype }) => {
   const [chartThreeState, setChartThreeState] = useState({
-    series: [65, 34, 12, 56],
+    series: [65, 34, 12, 56, 45],
   });
 
   const handleResetChartThree = () => {
     setChartThreeState((prevState) => ({
       ...prevState,
-      series: [65, 34, 12, 56],
+      series: [65, 34, 12, 56, 45],
     }));
   };
 
   return (
     <div className="mb-2" datatype="crain" style={{ display: selectedDatatype === "crain" ? "flex" : "none" }}>
-      <div id="chartThree" className="mx-auto flex justify-center">
+      <div id="chartThree" className="mt-3 mx-auto flex justify-center w-full">
         <ReactApexChart
+          className="w-full"
           options={chartthreeoptions}
           series={chartThreeState.series}
           type="donut"

@@ -4,13 +4,22 @@ import Image from "next/image";
 const TrainTrackBox = () => {
     return (
         <div className="flex items-center flex-col bg-white p-3 pt-3 mb-10 rounded-xl shadow-default">
-            <div className="flex items-center justify-between w-full">
-                <div className="flex">
+            <div className="flex items-center justify-end w-full gap-7">
+                <div className="flex mr-auto">
                     <button className="p-3 rounded-md mr-1 bg-[#EAEEF7]">
                         <Image
-                            width={20}
-                            height={20}
-                            src={"/images/icon/search-icon.png"}
+                            width={30}
+                            height={30}
+                            src={"/images/icon/search-icon.svg"}
+                            alt="User"
+                        />
+                    </button>
+
+                    <button className="p-3 rounded-md mr-1 bg-[#EAEEF7]">
+                        <Image
+                            width={30}
+                            height={30}
+                            src={"/images/icon/train-in.svg"}
 
                             alt="User"
                         />
@@ -18,25 +27,15 @@ const TrainTrackBox = () => {
 
                     <button className="p-3 rounded-md mr-1 bg-[#EAEEF7]">
                         <Image
-                            width={20}
-                            height={20}
-                            src={"/images/icon/train-in.png"}
-
-                            alt="User"
-                        />
-                    </button>
-
-                    <button className="p-3 rounded-md mr-1 bg-[#EAEEF7]">
-                        <Image
-                            width={20}
-                            height={20}
-                            src={"/images/icon/train-out.png"}
+                            width={30}
+                            height={30}
+                            src={"/images/icon/train-out.svg"}
                             alt="User"
                         />
                     </button>
                 </div>
 
-                <div className="titleSlots grid grid-cols-5 gap-3 mr-15">
+                <div className="titleSlots grid grid-cols-5 gap-3">
                     <div className="titleSlotsInner text-black text-[12px] font-bold text-center">
                         <p>K15</p>
                         <div className="flex">
@@ -163,6 +162,7 @@ const TrainTrackBox = () => {
                         </div>
                     </div>
                 </div>
+                <div className="containerTitle w-1/12 text-sm font-bold"></div>
             </div>
 
             <div className="containerSlots flex items-center justify-between w-full mt-10">
@@ -489,7 +489,8 @@ const TrainTrackBox = () => {
                     Eingang Nr Zeit
                 </div>
             </div>
-            <div className="titleSlots grid grid-cols-10 gap-3 mt-10 mb-15">
+            <div className="flex items-center justify-end w-full gap-7">
+                <div className="titleSlots grid grid-cols-10 gap-3 mt-10 mb-15">
                     <div className="titleSlotsInner text-black text-[12px] font-bold text-center">
                         <p>K10</p>
                         <div className="flex">
@@ -741,6 +742,10 @@ const TrainTrackBox = () => {
                         </div>
                     </div>
                 </div>
+                <div className="containerTitle w-1/12 text-sm font-bold">
+
+                </div>
+            </div>
         </div>
     );
 };

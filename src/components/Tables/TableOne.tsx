@@ -69,13 +69,9 @@ const ToggleTableData = () => {
           <button className={`p-3 rounded-md mr-1 ${selectedDatatype === "container" ? "bg-[#3B74B9]" : "bg-gray"}`} datatype="container" onClick={() => handleButtonClick("container")}>
             <Image
               className={`${selectedDatatype === "container" ? "invert brightness-0" : ""}`}
-              width={112}
-              height={112}
-              src={"/images/icon/container.png"}
-              style={{
-                width: "auto",
-                height: "auto",
-              }}
+              width={30}
+              height={30}
+              src={"/images/icon/container.svg"}
               alt="User"
             />
           </button>
@@ -83,13 +79,9 @@ const ToggleTableData = () => {
           <button className={`p-3 rounded-md mr-1 ${selectedDatatype === "crain" ? "bg-[#3B74B9]" : "bg-gray"}`} datatype="crain" onClick={() => handleButtonClick("crain")}>
             <Image
               className={`${selectedDatatype === "crain" ? "invert brightness-0" : ""}`}
-              width={112}
-              height={112}
-              src={"/images/icon/crain.png"}
-              style={{
-                width: "auto",
-                height: "auto",
-              }}
+              width={30}
+              height={30}
+              src={"/images/icon/crain.svg"}
               alt="User"
             />
           </button>
@@ -97,13 +89,9 @@ const ToggleTableData = () => {
           <button className={`p-3 rounded-md mr-1 ${selectedDatatype === "list" ? "bg-[#3B74B9]" : "bg-gray"}`} datatype="list" onClick={() => handleButtonClick("list")}>
             <Image
               className={`${selectedDatatype === "list" ? "invert brightness-0" : ""}`}
-              width={112}
-              height={112}
-              src={"/images/icon/list.png"}
-              style={{
-                width: "auto",
-                height: "auto",
-              }}
+              width={30}
+              height={30}
+              src={"/images/icon/list.svg"}
               alt="User"
             />
           </button>
@@ -111,13 +99,9 @@ const ToggleTableData = () => {
           <button className={`p-3 rounded-md mr-1 ${selectedDatatype === "train" ? "bg-[#3B74B9]" : "bg-gray"}`} datatype="train" onClick={() => handleButtonClick("train")}>
             <Image
               className={`${selectedDatatype === "train" ? "invert brightness-0" : ""}`}
-              width={112}
-              height={112}
-              src={"/images/icon/train.png"}
-              style={{
-                width: "auto",
-                height: "auto",
-              }}
+              width={30}
+              height={30}
+              src={"/images/icon/train.svg"}
               alt="User"
             />
           </button>
