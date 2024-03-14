@@ -76,11 +76,11 @@ const ChartTwo: React.FC = () => {
   const [chartTwoState, setChartTwoState] = useState<ChartTwoState>({
     series: [
       {
-        name: "Sales",
+        name: "Beladen",
         data: [44, 55, 41, 67, 22, 43, 65],
       },
       {
-        name: "Revenue",
+        name: "Zu be/entladen",
         data: [13, 23, 20, 8, 13, 27, 15],
       },
     ],
