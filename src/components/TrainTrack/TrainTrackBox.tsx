@@ -8,8 +8,8 @@ const TrainTrackBox = () => {
                 <div className="flex mr-auto">
                     <button className="p-3 rounded-md mr-1 bg-[#EAEEF7]">
                         <Image
-                            width={30}
-                            height={30}
+                            width={25}
+                            height={25}
                             src={"/images/icon/search-icon.svg"}
                             alt="User"
                         />
@@ -17,8 +17,8 @@ const TrainTrackBox = () => {
 
                     <button className="p-3 rounded-md mr-1 bg-[#EAEEF7]">
                         <Image
-                            width={30}
-                            height={30}
+                            width={25}
+                            height={25}
                             src={"/images/icon/train-in.svg"}
 
                             alt="User"
@@ -27,8 +27,8 @@ const TrainTrackBox = () => {
 
                     <button className="p-3 rounded-md mr-1 bg-[#EAEEF7]">
                         <Image
-                            width={30}
-                            height={30}
+                            width={25}
+                            height={25}
                             src={"/images/icon/train-out.svg"}
                             alt="User"
                         />
@@ -165,7 +165,7 @@ const TrainTrackBox = () => {
                 <div className="containerTitle w-1/12 text-sm font-bold"></div>
             </div>
 
-            <div className="containerSlots flex items-center justify-between w-full mt-10">
+            <div className="containerSlots flex items-center justify-between w-full mt-5">
                 <div className="containerTitle w-1/12 text-sm font-bold">
                     Ausgang Nr
                     Zeit

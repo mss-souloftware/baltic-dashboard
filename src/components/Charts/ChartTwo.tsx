@@ -109,8 +109,8 @@ const ChartTwo: React.FC = () => {
             <button className={`p-3 rounded-md mr-1 ${selectedDatatype === "container" ? "bg-[#3B74B9]" : "bg-gray"}`} datatype="container" onClick={() => handleButtonClick("container")}>
               <Image
                 className={`${selectedDatatype === "container" ? "invert brightness-0" : ""}`}
-                width={30}
-                height={30}
+                width={25}
+                height={25}
                 src={"/images/icon/container.svg"}
                 alt="User"
               />
@@ -119,8 +119,8 @@ const ChartTwo: React.FC = () => {
             <button className={`p-3 rounded-md mr-1 ${selectedDatatype === "crain" ? "bg-[#3B74B9]" : "bg-gray"}`} datatype="crain" onClick={() => handleButtonClick("crain")}>
               <Image
                 className={`${selectedDatatype === "crain" ? "invert brightness-0" : ""}`}
-                width={30}
-                height={30}
+                width={25}
+                height={25}
                 src={"/images/icon/crain.svg"}
                 alt="User"
               />
