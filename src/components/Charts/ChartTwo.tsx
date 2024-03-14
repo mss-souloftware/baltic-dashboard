@@ -154,11 +154,6 @@ const chartthreeoptions: ApexOptions = {
   },
   colors: ["#A9B8D7", "#EA1E63", "#03A9F5", "#3A4070", "#F88E00"],
   labels: ["Gesamt", "Verladen", "K Platz", "Hafen", "Gesperrt"],
-  legend: {
-    show: false,
-    position: "bottom",
-  },
-
   plotOptions: {
     pie: {
       donut: {
@@ -225,6 +220,7 @@ const ChartThree: React.FC<ChartThreeProps> = ({ selectedDatatype }) => {
           options={chartthreeoptions}
           series={chartThreeState.series}
           type="donut"
+          height={320}
         />
       </div>
     </div>
