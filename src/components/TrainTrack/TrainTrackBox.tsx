@@ -39,126 +39,126 @@ const TrainTrackBox = () => {
                     <div className="titleSlotsInner text-black text-[12px] font-bold text-center">
                         <p>K15</p>
                         <div className="flex">
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
                         </div>
                     </div>
                     <div className="titleSlotsInner text-black text-[12px] font-bold text-center">
                         <p>K14</p>
                         <div className="flex">
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
                             <div className="text-blue-600">|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
                         </div>
                     </div>
                     <div className="titleSlotsInner text-black text-[12px] font-bold text-center">
                         <p>K13</p>
                         <div className="flex">
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
                         </div>
                     </div>
                     <div className="titleSlotsInner text-black text-[12px] font-bold text-center">
                         <p>K12</p>
                         <div className="flex">
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
                         </div>
                     </div>
                     <div className="titleSlotsInner text-black text-[12px] font-bold text-center">
                         <p>K11</p>
                         <div className="flex">
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
                         </div>
                     </div>
                 </div>
@@ -494,251 +494,251 @@ const TrainTrackBox = () => {
                     <div className="titleSlotsInner text-black text-[12px] font-bold text-center">
                         <p>K10</p>
                         <div className="flex">
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
                         </div>
                     </div>
                     <div className="titleSlotsInner text-black text-[12px] font-bold text-center">
                         <p>K09</p>
                         <div className="flex">
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
                         </div>
                     </div>
                     <div className="titleSlotsInner text-black text-[12px] font-bold text-center">
                         <p>K08</p>
                         <div className="flex">
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
                         </div>
                     </div>
                     <div className="titleSlotsInner text-black text-[12px] font-bold text-center">
                         <p>K07</p>
                         <div className="flex">
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
                         </div>
                     </div>
                     <div className="titleSlotsInner text-black text-[12px] font-bold text-center">
                         <p>K06</p>
                         <div className="flex">
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
                         </div>
                     </div>
                     <div className="titleSlotsInner text-black text-[12px] font-bold text-center">
                         <p>K05</p>
                         <div className="flex">
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
                         </div>
                     </div>
                     <div className="titleSlotsInner text-black text-[12px] font-bold text-center">
                         <p>K04</p>
                         <div className="flex">
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
                         </div>
                     </div>
                     <div className="titleSlotsInner text-black text-[12px] font-bold text-center">
                         <p>K03</p>
                         <div className="flex">
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
                         </div>
                     </div>
                     <div className="titleSlotsInner text-black text-[12px] font-bold text-center">
                         <p>K02</p>
                         <div className="flex">
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
                         </div>
                     </div>
                     <div className="titleSlotsInner text-black text-[12px] font-bold text-center">
                         <p>K01</p>
                         <div className="flex">
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
-                            <div>|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
+                            <div className="hover:text-[#3B74B9] hover:cursor-pointer">|</div>
                         </div>
                     </div>
                 </div>

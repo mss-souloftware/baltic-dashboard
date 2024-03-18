@@ -60,9 +60,9 @@ const ToggleTableData = () => {
 
         <div className="datePicker">
           <span className="mr-2 font-medium">Datum von</span>
-          <input className="bg-gray-2 border px-2 w-1/4" type="date" />
+          <input className="bg-gray-2 border rounded-md px-2 w-1/4" type="date" />
           <span className="mx-2 font-medium">bis</span>
-          <input className="bg-gray-2 border px-2 w-1/4" type="date" />
+          <input className="bg-gray-2 border rounded-md px-2 w-1/4" type="date" />
         </div>
 
         <div className="flex">
