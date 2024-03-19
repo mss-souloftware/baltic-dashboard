@@ -1,5 +1,3 @@
-"use client";
-
 import React, { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
@@ -17,11 +15,17 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
   const trigger = useRef<any>(null);
   const sidebar = useRef<any>(null);
 
-  let storedSidebarExpanded = "true";
+  const [sidebarWidth, setSidebarWidth] = useState("w-55");
+  const [sidebarLogo, setSidebarLogo] = useState("/images/logo/logo-light.svg");
+  const [sidebarLogoDisplay, setSidebarLogoDisplay] = useState("flex");
+  const [sidebarMenu, setSidebarMenu] = useState("text-sm");
 
-  const [sidebarExpanded, setSidebarExpanded] = useState(
-    storedSidebarExpanded === null ? false : storedSidebarExpanded === "true",
-  );
+  const toggleSidebarWidth = () => {
+    setSidebarWidth(sidebarWidth === "w-55" ? "w-18" : "w-55");
+    setSidebarLogo(sidebarLogo === "/images/logo/logo-light.svg" ? "/images/logo/logo-icon.svg" : "/images/logo/logo-light.svg");
+    setSidebarLogoDisplay(sidebarLogoDisplay === "flex" ? "flex-column" : "flex");
+    setSidebarMenu(sidebarMenu === "text-sm" ? "text-[0px]" : "text-sm");
+  };
 
   // close on click outside
   useEffect(() => {
@@ -49,32 +53,31 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
     return () => document.removeEventListener("keydown", keyHandler);
   });
 
-  useEffect(() => {
-    localStorage.setItem("sidebar-expanded", sidebarExpanded.toString());
-    if (sidebarExpanded) {
-      document.querySelector("body")?.classList.add("sidebar-expanded");
-    } else {
-      document.querySelector("body")?.classList.remove("sidebar-expanded");
-    }
-  }, [sidebarExpanded]);
-
   return (
     <aside
       ref={sidebar}
-      className={`absolute left-0 top-0 z-9999 flex h-screen w-55 flex-col overflow-y-hidden bg-black duration-300 ease-linear dark:bg-boxdark lg:static lg:translate-x-0 ${sidebarOpen ? "translate-x-0" : "-translate-x-full"
+      className={`absolute left-0 top-0 z-9999 flex h-screen ${sidebarWidth} flex-col overflow-y-hidden bg-black duration-300 ease-linear dark:bg-boxdark lg:static lg:translate-x-0 ${sidebarOpen ? "translate-x-0" : "-translate-x-full"
         }`}
     >
       {/* <!-- SIDEBAR HEADER --> */}
-      <div className="flex items-center justify-between gap-2 px-6 py-5.5 lg:py-6.5">
+      <div className={`${sidebarLogoDisplay} items-start justify-between gap-2 px-3 py-5.5 lg:py-6.5`}>
         <Link href="/">
           <Image
             width={176}
             height={32}
-            src={"/images/logo/logo-light.svg"}
+            src={sidebarLogo}
             alt="Logo"
             priority
           />
         </Link>
+
+        <div className="toggler cursor-pointer" onClick={toggleSidebarWidth}>
+          <svg width="35px" height="35px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 7L4 7" stroke="#fff" strokeWidth="1.5" strokeLinecap="round" />
+            <path d="M20 12L4 12" stroke="#fff" strokeWidth="1.5" strokeLinecap="round" />
+            <path d="M20 17L4 17" stroke="#fff" strokeWidth="1.5" strokeLinecap="round" />
+          </svg>
+        </div>
 
         <button
           ref={trigger}
@@ -102,7 +105,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
 
       <div className="no-scrollbar flex flex-col overflow-y-auto duration-300 ease-linear">
         {/* <!-- Sidebar Menu --> */}
-        <nav className="mt-5 px-4 py-4 lg:mt-9 lg:px-6">
+        <nav className="mt-5 px-2 py-4 lg:mt-9">
           {/* <!-- Menu Group --> */}
           <div>
             <ul className="mb-6 flex flex-col gap-1.5">
@@ -117,8 +120,8 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                     <React.Fragment>
                       <Link
                         href="/"
-                        className={`group relative flex items-center gap-2.5 rounded-sm px-4 py-2 font-medium text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4 ${(pathname === "/" ||
-                            pathname.includes("dashboard")) &&
+                        className={`group relative flex items-center gap-2.5 rounded-sm px-4 py-2 font-medium ${sidebarMenu} text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4 ${(pathname === "/" ||
+                          pathname.includes("dashboard")) &&
                           "bg-graydark dark:bg-meta-4"
                           }`}
                       // onClick={(e) => {
