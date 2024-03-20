@@ -2,7 +2,6 @@
 import React from "react";
 import ChartTwo from "../Charts/ChartTwo";
 import TableOne from "../Tables/TableOne";
-import ChartThree from "../Charts/ChartThree";
 import TrainTrackBox from "../TrainTrack/TrainTrackBox";
 
 const ECommerce: React.FC = () => {
